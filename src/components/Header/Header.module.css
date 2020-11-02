@@ -1,0 +1,11 @@
+.logo {
+  color: #3744a6;
+  font-weight: bolder;
+}
+.appear {
+  transform: translateX(-100%);
+}
+.appearActive {
+  transform: translateX(0);
+  transition: transform 500ms linear;
+}

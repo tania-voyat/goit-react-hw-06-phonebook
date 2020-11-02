@@ -1,0 +1,37 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 10px;
+}
+
+.input {
+  width: 290px;
+  height: 30px;
+  display: block;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+.input:focus {
+  outline: none;
+  border: 1px solid #3744a6;
+}
+.enter {
+  transform: scale(0, 1);
+}
+.enterActive {
+  transform: scale(1);
+  transition: transform 250ms linear;
+}
+.exit {
+  transform: scale(1);
+}
+.exitActive {
+  transform: scale(0, 1);
+  transition: transform 250ms linear;
+}
